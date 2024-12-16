@@ -40,3 +40,15 @@ input[type=number]::-webkit-outer-spin-button {
     -webkit-appearance: none;
     margin: 0;
 }
+
+@media (max-width: 600px) {
+    .modal-content {
+        width: 80%;
+    }
+}
+
+@media (min-width: 600px) and (max-width: 960px) {
+    .modal-content {
+        width: 50%;
+    }
+}
